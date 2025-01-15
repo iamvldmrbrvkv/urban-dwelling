@@ -59,19 +59,156 @@ html {
   src: url("./resources/fonts/korataki.otf") format("opentype");
 }
 
+/* @media only screen and (max-width: 1920px) {
+  .search-cards {
+    width: 1920px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 40px;
+  }
+  
+  .card img {
+    max-width: 100%;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .search-cards {
+    width: 1600px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 40px;
+  }
+  
+  .card img {
+    max-width: 100%;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .nav-info,
+  .nav a {
+    display: none;
+  }
+
+  .nav {
+    display: flex;
+    align-items: center;
+    height: 56px;
+  }
+
+  .search-cards {
+    width: 1400px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 40px;
+  }
+  
+  .card img {
+    max-width: 100%;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+} */
+
 @media only screen and (max-width: 390px) {
   .nav-info,
   .nav a {
     display: none;
   }
 
+  .nav {
+    display: flex;
+    align-items: center;
+    height: 56px;
+  }
+
+  .nav-logo {
+    position: absolute;
+    left: 35px;
+    width: 141.32px;
+  }
+
+  main {
+    width: 320px;
+    margin: 30px auto;
+  }
+
+  h2 {
+    font: 400 24px/33.6px Korataki;
+    text-align: left;
+  }
+
   .menu-button {
     display: inline-block;
+    position: absolute;
+    right: 45px;
     width: 30px;
     height: 25px;
-    position: relative;
     background: transparent;
     border: none;
     cursor: pointer;
+  }
+
+  .search-cards {
+    width: 320px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(155px, 1fr));
+    gap: 10px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .card p {
+    margin-top: 10px;
+    font: 500 16px/22.4px Lato;
+    text-align: left;
+  }
+
+  .price {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+  }
+
+  .card img {
+    max-width: 100%;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-flow: column wrap;
+    background: black;
+    color: white;
+  }
+
+  .footer-logo {
+    width: 180px;
+  }
+
+  .footer-section {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 20px;
   }
 }
