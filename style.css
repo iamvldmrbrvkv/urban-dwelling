@@ -53,3 +53,8 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+@font-face {
+  font-family: "Korataki";
+  src: url("./resources/fonts/korataki.otf") format("opentype");
+}
