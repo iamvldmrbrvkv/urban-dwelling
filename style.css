@@ -58,3 +58,20 @@ html {
   font-family: "Korataki";
   src: url("./resources/fonts/korataki.otf") format("opentype");
 }
+
+@media only screen and (max-width: 390px) {
+  .nav-info,
+  .nav a {
+    display: none;
+  }
+
+  .menu-button {
+    display: inline-block;
+    width: 30px;
+    height: 25px;
+    position: relative;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+}
