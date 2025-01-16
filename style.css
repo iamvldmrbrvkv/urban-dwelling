@@ -76,10 +76,102 @@ html {
     flex-flow: column;
     justify-content: space-between;
   }
-}
+} */
 
 @media only screen and (max-width: 1600px) {
-  .search-cards {
+  body {
+    width: 1600px;
+  }
+
+  .nav-info {
+    width: 100%;
+    height: 40px;
+    background: #231815;
+    position: relative;
+  }
+
+  .nav-info a {
+    text-decoration: none;
+    font: 400 16px/16px Lato;
+    text-align: left;
+    color: #FFFFFF;
+  }
+
+  .nav-info a:nth-child(1) {
+    width: 138px;
+    position: absolute;
+    top: 12px;
+    left: 980px;
+  }
+
+  .nav-info a:nth-child(2) {
+    width: 140px;
+    position: absolute;
+    top: 12px;
+    left: 1188px;
+  }
+
+  .nav-info a:nth-child(3) {
+    width: 22px;
+    position: absolute;
+    top: 10px;
+    left: 1398px;
+  }
+
+  .menu-button {
+    display: none;
+  }
+
+  .nav {
+    position: absolute;
+    top: 40px;
+    height: 80px;
+  }
+
+  .nav-logo {
+    position: absolute;
+    top: 12px;
+    left: 180px;
+  }
+
+  .nav-links {
+    width: 479px;
+    height: 16px;
+    position: absolute;
+    top: 31px;
+    left: 560.5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    font: 600 16px/16px Lato;
+    color: #231815;
+  }
+
+  .search {
+    display: none;
+  }
+  
+  .search-active {
+    content: url('./resources/images/search-active.png');
+  }
+
+  .nav-buttons {
+    position: absolute;
+    top: 21px;
+    left: 1220px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+  }
+
+  
+
+  /* .search-cards {
     width: 1600px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -94,8 +186,8 @@ html {
     display: flex;
     flex-flow: column;
     justify-content: space-between;
-  }
-} */
+  } */
+}
 
 @media only screen and (max-width: 768px) {
   body {
@@ -192,7 +284,7 @@ html {
   }
 
   .footer {
-    background-color: #000;
+    background: #231815;
     color: #fff;
     font-family: 'Lato', sans-serif;
     height: 521px;
@@ -443,7 +535,7 @@ html {
 
   .footer {
     height: 867px;
-    background-color: #000;
+    background: #231815;
     color: #fff;
     padding: 40px 20px;
     font-family: 'Lato', sans-serif;
