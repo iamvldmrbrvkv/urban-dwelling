@@ -42,8 +42,8 @@
         <img src="./resources/images/1.png" alt="Встраиваемый светильник Markt">
         <p>Встраиваемый светильник Markt</p>
         <div class="price">
-          <span> 3 490 ₽</span>
-          <span> 5 060 ₽</span>
+          <span class="price-red"> 3 490 ₽</span>
+          <span class="price-discount"> 5 060 ₽</span>
         </div>
       </div>
       <div class="card">
@@ -57,8 +57,8 @@
         <img src="./resources/images/3.png" alt="Сведодиодный светильник">
         <p>Сведодиодный светильник</p>
         <div class="price">
-          <span> 5 060 ₽</span>
-          <span> 6 060 ₽</span>
+          <span class="price-red"> 5 060 ₽</span>
+          <span class="price-discount"> 6 060 ₽</span>
         </div>
       </div>
       <div class="card">
@@ -72,8 +72,8 @@
         <img src="./resources/images/5.png" alt="Линейный светильник ARG">
         <p>Линейный светильник ARG</p>
         <div class="price">
-          <span> 6 700 ₽</span>
-          <span> 6 060 ₽</span>
+          <span class="price-red"> 6 700 ₽</span>
+          <span class="price-discount"> 6 060 ₽</span>
         </div>
       </div>
       <div class="card">
@@ -87,8 +87,8 @@
         <img src="./resources/images/7.png" alt="Встраиваемый светильник Markt">
         <p>Встраиваемый светильник Markt</p>
         <div class="price">
-          <span> 3 490 ₽</span>
-          <span> 6 060 ₽</span>
+          <span class="price-red"> 3 490 ₽</span>
+          <span class="price-discount"> 6 060 ₽</span>
         </div>
       </div>
       <div class="card">
@@ -102,24 +102,28 @@
   </main>
   <footer class="footer">
     <div class="footer-container">
-      <div class="footer-section">
-        <img src="./resources/images/Logo-footer.png" alt="Urban Dwelling Logo" class="footer-logo">
+      <div class="footer-logo">
+        <img src="./resources/images/Logo-footer.png" alt="Urban Dwelling Logo">
       </div>
   
-      <div class="footer-section">
+      <div class="footer-adress">
         <h3 class="footer-title">Адрес</h3>
         <p class="footer-text">Текст, Текст, Текст</p>
-  
+      </div>
+
+      <div class="footer-contacts">
         <h3 class="footer-title">Контакты</h3>
-        <p class="footer-text">
-          Email: <a href="mailto:urban.dwelling@yandex.com" class="footer-link">urban.dwelling@yandex.com</a><br>
-          Телефон: 8 (999) 999-99-99
-        </p>
+        <div class="footer-text-container">
+          <p class="footer-text">
+            Email: <a href="mailto:urban.dwelling@yandex.com" class="footer-link">urban.dwelling@yandex.com</a>
+          </p>
+          <span>Телефон: 8 (999) 999-99-99</span>
+        </div>
       </div>
   
-      <div class="footer-section">
+      <div class="footer-services">
         <h3 class="footer-title">Услуги</h3>
-        <ul class="footer-list">
+        <ul class="footer-list-services">
           <li><a href="#" class="footer-link">Каталог</a></li>
           <li><a href="#" class="footer-link">О компании</a></li>
           <li><a href="#" class="footer-link">Контакты</a></li>
@@ -128,29 +132,31 @@
         </ul>
       </div>
   
-      <div class="footer-section">
-        <ul class="footer-list">
+      <div class="footer-policy">
+        <ul class="footer-list-policy">
           <li><a href="#" class="footer-link">Публичная оферта</a></li>
           <li><a href="#" class="footer-link">Политика персональных данных</a></li>
         </ul>
-        <div class="footer-privacy">
-          <p>
-            Этот сайт защищен от спама службой reCAPTCHA Google.
-            <a href="#" class="footer-link">Политика конфиденциальности</a> /
-            <a href="#" class="footer-link">Условия предоставления услуг</a>
-          </p>
+      </div>
+
+      <div class="footer-icons">
+        <div class="footer-payment">
+          <img src="./resources/images/mir.png" alt="МИР" class="payment-icon">
         </div>
-        <div class="footer-icons">
-          <div class="footer-payment">
-            <img src="./resources/images/mir.png" alt="МИР" class="payment-icon">
-          </div>
-          <div class="footer-payment">
-            <img src="./resources/images/visa.png" alt="Visa" class="payment-icon">
-          </div>
-          <div class="footer-payment">
-            <img src="./resources/images/master card.png" alt="MasterCard" class="payment-icon">
-          </div>
+        <div class="footer-payment">
+          <img src="./resources/images/visa.png" alt="Visa" class="payment-icon">
         </div>
+        <div class="footer-payment">
+          <img src="./resources/images/master card.png" alt="MasterCard" class="payment-icon">
+        </div>
+      </div>
+
+      <div class="footer-privacy">
+        <p>
+          Этот сайт защищен от спама службой reCAPTCHA Google.
+          <a href="#" class="footer-link">Политика конфиденциальности</a> /
+          <a href="#" class="footer-link">Условия предоставления услуг</a>
+        </p>
       </div>
     </div>
   </footer>
