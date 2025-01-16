@@ -101,6 +101,7 @@ html {
   body {
     width: 768px;
   }
+  
   .nav-info,
   .nav a {
     display: none;
