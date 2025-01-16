@@ -442,6 +442,7 @@ html {
   }
 
   .footer {
+    height: 867px;
     background-color: #000;
     color: #fff;
     padding: 40px 20px;
@@ -458,6 +459,7 @@ html {
   
   .footer-logo {
     width: 180px;
+    position: static;
   }
   
   .footer-adress,
@@ -471,22 +473,27 @@ html {
 
   .footer-adress {
     width: 245px;
+    position: static;
   }
 
   .footer-contacts {
     width: 246px;
+    position: static;
   }
 
   .footer-services {
     width: 140px;
     gap: 20px;
+    position: static;
   }
 
   .footer-policy {
     width: 242px;
+    position: static;
   }
 
   .footer-icons {
+    position: static;
     display: flex;
     justify-content: space-between;
     width: 214.76px;
@@ -496,6 +503,7 @@ html {
   }
 
   .footer-privacy {
+    position: static;
     width: 321px;
     font-size: 12px;
     color: #ccc;
