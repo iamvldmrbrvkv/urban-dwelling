@@ -174,13 +174,26 @@ html {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 40px;
     margin-top: 40px;
-
   }
 
   .card {
     display: flex;
     flex-flow: column;
     justify-content: space-between;
+    position: relative;
+  }
+
+  .card-sale {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+  .card img:nth-child(3) {
+    max-width: 258px;
+    position: absolute;
+    top: 409px;
+    left: 31px;
   }
 
   .card p {
@@ -502,6 +515,20 @@ html {
     display: flex;
     flex-flow: column;
     justify-content: space-between;
+    position: relative;
+  }
+
+  .card-sale {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+  .card img:nth-child(3) {
+    max-width: 258px;
+    position: absolute;
+    top: 361px;
+    left: 14px;
   }
 
   .price {
@@ -766,6 +793,20 @@ html {
     display: flex;
     flex-flow: column;
     justify-content: space-between;
+    position: relative;
+  }
+
+  .card-sale {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+  .card img:nth-child(3) {
+    max-width: 258px;
+    position: absolute;
+    top: 409px;
+    left: 31px;
   }
 
   .price {
@@ -1027,6 +1068,18 @@ html {
     display: flex;
     flex-flow: column;
     justify-content: space-between;
+    position: relative;
+  }
+
+  .card-sale {
+    width: 70px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+  .card img:nth-child(3) {
+    display: none;
   }
 
   .card p {
