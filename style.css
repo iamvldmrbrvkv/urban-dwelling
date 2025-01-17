@@ -231,7 +231,7 @@ html {
   }
   
   .footer {
-    background: #231815;
+    background: #0C0C0C;
     color: #F5F5F5;
     font-family: 'Lato', sans-serif;
     width: 1920px;
@@ -560,7 +560,7 @@ html {
   }
 
   .footer {
-    background: #231815;
+    background: #0C0C0C;
     color: #F5F5F5;
     font-family: 'Lato', sans-serif;
     width: 1600px;
@@ -839,7 +839,7 @@ html {
 
   .footer {
     position: static;
-    background: #231815;
+    background: #0C0C0C;
     color: #F5F5F5;
     font-family: 'Lato', sans-serif;
     height: 521px;
@@ -1118,7 +1118,7 @@ html {
   .footer {
     height: 867px;
     width: 390px;
-    background: #231815;
+    background: #0C0C0C;
     color: #F5F5F5;
     padding-top: 40px;
     font-family: 'Lato', sans-serif;
@@ -1128,7 +1128,7 @@ html {
     display: flex;
     flex-flow: column;
     gap: 20px;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
   }
   
