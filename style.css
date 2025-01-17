@@ -82,21 +82,21 @@ html {
     width: 138px;
     position: absolute;
     top: 12px;
-    left: 980px;
+    left: 1220px;
   }
 
   .nav-info a:nth-child(2) {
     width: 140px;
     position: absolute;
     top: 12px;
-    left: 1188px;
+    left: 1428px;
   }
 
   .nav-info a:nth-child(3) {
     width: 22px;
     position: absolute;
     top: 10px;
-    left: 1398px;
+    left: 1639px;
   }
 
   .menu-button {
@@ -112,7 +112,7 @@ html {
   .nav-logo {
     position: absolute;
     top: 12px;
-    left: 180px;
+    left: 261px;
   }
 
   .nav-links {
@@ -120,7 +120,7 @@ html {
     height: 16px;
     position: absolute;
     top: 31px;
-    left: 560.5px;
+    left: 720.5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -143,7 +143,7 @@ html {
   .nav-buttons {
     position: absolute;
     top: 21px;
-    left: 1120px;
+    left: 1365px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -158,8 +158,7 @@ html {
   main {
     position: absolute;
     top: 120px;
-    padding: 60px 120px;
-    left: 60px;
+    padding: 60px 260px;
   }
 
   h2 {
@@ -169,12 +168,12 @@ html {
   }
 
   .search-cards {
-    width: 1240px;
-    height: 1062px;
+    width: 1400px;
+    height: 1180px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(287px, 1fr));
-    gap: 30px;
-    margin-top: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 40px;
+    margin-top: 40px;
 
   }
 
@@ -217,26 +216,22 @@ html {
   .card img {
     max-width: 100%;
   }
-
+  
   .footer {
     background: #231815;
     color: #F5F5F5;
     font-family: 'Lato', sans-serif;
-    width: 1600px;
+    width: 1920px;
     height: 320px;
     position: absolute;
-    top: 1404px;
-  }
-  
-  .footer-container {
-    position: relative;
+    top: 1550px;
   }
   
   .footer-logo {
     position: absolute;
-    top: 64px;
-    left: 180px;
-    width: 217px;
+    top: 61px;
+    left: 259px;
+    width: 239px;
   }
   
   .footer-adress,
@@ -252,28 +247,28 @@ html {
     width: 245px;
     position: absolute;
     top: 60px;
-    left: 573px;
+    left: 692px;
   }
 
   .footer-contacts {
     width: 246px;
     position: absolute;
     top: 160px;
-    left: 572px;
+    left: 691px;
   }
 
   .footer-services .footer-title {
     width: 140px;
     position: absolute;
     top: 60px;
-    left: 900px;
+    left: 1086px;
   }
 
   .footer-policy {
     width: 242px;
     position: absolute;
     top: 62px;
-    left: 1176.98px;
+    left: 1418px;
   }
 
   .footer-icons {
@@ -283,14 +278,14 @@ html {
     height: 31px;
     position: absolute;
     top: 198px;
-    left: 1205px;
+    left: 1444px;
   }
 
   .footer-privacy {
     width: 322px;
     position: absolute;
     top: 176px;
-    left: 180px;
+    left: 260px;
   }
 
   .footer-text-container {
@@ -327,7 +322,7 @@ html {
   .footer-list-services {
     position: absolute;
     top: 98px;
-    left: 900px;
+    left: 1086px;
     list-style: none;
     display: flex;
     flex-flow: column;
@@ -509,12 +504,6 @@ html {
     justify-content: space-between;
   }
 
-  .card p {
-    margin-top: 10px;
-    font: 700 18px/25.2px Lato;
-    text-align: left;
-  }
-
   .price {
     margin-top: 10px;
     display: flex;
@@ -551,10 +540,6 @@ html {
     height: 320px;
     position: absolute;
     top: 1404px;
-  }
-  
-  .footer-container {
-    position: relative;
   }
   
   .footer-logo {
@@ -781,12 +766,6 @@ html {
     display: flex;
     flex-flow: column;
     justify-content: space-between;
-  }
-
-  .card p {
-    margin-top: 10px;
-    font: 700 18px/25.2px Lato;
-    text-align: left;
   }
 
   .price {
@@ -1052,7 +1031,7 @@ html {
 
   .card p {
     margin-top: 10px;
-    font: 500 16px/22.4px Lato;
+    font: 500 15px/22.4px Lato;
     text-align: left;
   }
 
@@ -1085,6 +1064,7 @@ html {
 
   .footer {
     height: 867px;
+    width: 390px;
     background: #231815;
     color: #F5F5F5;
     padding-top: 40px;
