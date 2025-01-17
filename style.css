@@ -59,24 +59,335 @@ html {
   src: url("./resources/fonts/korataki.otf") format("opentype");
 }
 
-/* @media only screen and (max-width: 1920px) {
-  .search-cards {
+@media only screen and (max-width: 1920px) {
+  body {
     width: 1920px;
+  }
+
+  .nav-info {
+    width: 100%;
+    height: 40px;
+    background: #231815;
+    position: relative;
+  }
+
+  .nav-info a {
+    text-decoration: none;
+    font: 400 16px/16px Lato;
+    text-align: left;
+    color: #F5F5F5;
+  }
+
+  .nav-info a:nth-child(1) {
+    width: 138px;
+    position: absolute;
+    top: 12px;
+    left: 980px;
+  }
+
+  .nav-info a:nth-child(2) {
+    width: 140px;
+    position: absolute;
+    top: 12px;
+    left: 1188px;
+  }
+
+  .nav-info a:nth-child(3) {
+    width: 22px;
+    position: absolute;
+    top: 10px;
+    left: 1398px;
+  }
+
+  .menu-button {
+    display: none;
+  }
+
+  .nav {
+    position: absolute;
+    top: 40px;
+    height: 80px;
+  }
+
+  .nav-logo {
+    position: absolute;
+    top: 12px;
+    left: 180px;
+  }
+
+  .nav-links {
+    width: 479px;
+    height: 16px;
+    position: absolute;
+    top: 31px;
+    left: 560.5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    font: 600 16px/16px Lato;
+    color: #231815;
+  }
+  
+  .nav-search {
+    display: flex;
+  }
+  
+  .nav-search::before {
+    content: url('./resources/images/search.png');
+  }
+
+  .nav-buttons {
+    position: absolute;
+    top: 21px;
+    left: 1120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+  }
+
+  .nav-buttons span {
+    font: 400 16px/16px Lato;
+    text-align: left;
+  }
+
+  main {
+    position: absolute;
+    top: 120px;
+    padding: 60px 120px;
+    left: 60px;
+  }
+
+  h2 {
+    font: 400 44px/61.6px Korataki;
+    text-align: left;
+    width: 651px
+  }
+
+  .search-cards {
+    width: 1240px;
+    height: 1062px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(287px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+
   }
-  
-  .card img {
-    max-width: 100%;
-  }
-  
+
   .card {
     display: flex;
     flex-flow: column;
     justify-content: space-between;
   }
-} */
+
+  .card p {
+    margin-top: 10px;
+    font: 700 18px/25.2px Lato;
+    text-align: left;
+  }
+
+  .price {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+  }
+
+  .price span {
+    font: 700 22px/30.8px Lato;
+    text-align: left;
+  }
+  
+  .price-red {
+    font: 700 22px/30.8px Lato;
+    text-align: left;
+    color: #E45302;
+  }
+
+  .price-discount {
+    font: 700 22px/30.8px Lato;
+    text-align: left;
+    text-decoration: line-through;
+    color: #808080;
+  }
+
+  .card img {
+    max-width: 100%;
+  }
+
+  .footer {
+    background: #231815;
+    color: #F5F5F5;
+    font-family: 'Lato', sans-serif;
+    width: 1600px;
+    height: 320px;
+    position: absolute;
+    top: 1404px;
+  }
+  
+  .footer-container {
+    position: relative;
+  }
+  
+  .footer-logo {
+    position: absolute;
+    top: 64px;
+    left: 180px;
+    width: 217px;
+  }
+  
+  .footer-adress,
+  .footer-contacts,
+  .footer-services,
+  .footer-policy {
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+  }
+
+  .footer-adress {
+    width: 245px;
+    position: absolute;
+    top: 60px;
+    left: 573px;
+  }
+
+  .footer-contacts {
+    width: 246px;
+    position: absolute;
+    top: 160px;
+    left: 572px;
+  }
+
+  .footer-services .footer-title {
+    width: 140px;
+    position: absolute;
+    top: 60px;
+    left: 900px;
+  }
+
+  .footer-policy {
+    width: 242px;
+    position: absolute;
+    top: 62px;
+    left: 1176.98px;
+  }
+
+  .footer-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 214.76px;
+    height: 31px;
+    position: absolute;
+    top: 198px;
+    left: 1205px;
+  }
+
+  .footer-privacy {
+    width: 322px;
+    position: absolute;
+    top: 176px;
+    left: 180px;
+  }
+
+  .footer-text-container {
+    display: flex;
+    flex-flow: column;
+    gap: 25px;
+  }
+
+  .footer-title {
+    font: 700 18px/18px Lato;
+    text-align: left;
+  }
+  
+  .footer-text {
+    font: 400 16px/24px Lato;
+    text-align: left;
+  }
+  
+  .footer-link {
+    color: #F5F5F5;
+    text-decoration: none;
+    font: 400 16px/24px Lato;
+    text-align: left;
+  }
+
+  .footer-text-container .footer-text,
+  .footer-text-container span {
+    color: #F5F5F5;
+    text-decoration: none;
+    font: 400 16px/16px Lato;
+    text-align: left;
+  }
+  
+  .footer-list-services {
+    position: absolute;
+    top: 98px;
+    left: 900px;
+    list-style: none;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    height: 160px;
+    gap: 20px;
+  }
+
+  .footer-list-services .footer-link {
+    font: 400 16px/16px Lato;
+    text-align: left;
+    color: #F5F5F5;
+  }
+  
+  .footer-list li {
+    margin-bottom: 5px;
+  }
+
+  .footer-list-policy {
+    display: flex;
+    flex-flow: column;
+    align-items: end;
+    gap: 20px;
+  }
+
+  .footer-list-policy .footer-link {
+    font: 400 16px/22.4px Lato;
+    text-align: left;
+    color: #808080;
+  }
+  
+  .footer-payment {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-payment:nth-child(1) {
+    width: 46px;
+  }
+  
+  .footer-payment:nth-child(2) {
+    width: 45px;
+  }
+  
+  .footer-payment:nth-child(3) {
+    width: 48.33px;
+  }
+  
+  .payment-icon {
+    max-width: 100%;
+  }
+
+  .footer-privacy p,
+  .footer-privacy .footer-link {
+    font: 400 16px/20.8px Roboto;
+    text-align: left;
+    text-decoration: underline solid;
+    color: #808080;
+  }
+}
 
 @media only screen and (max-width: 1600px) {
   body {
@@ -94,7 +405,7 @@ html {
     text-decoration: none;
     font: 400 16px/16px Lato;
     text-align: left;
-    color: #FFFFFF;
+    color: #F5F5F5;
   }
 
   .nav-info a:nth-child(1) {
@@ -151,11 +462,11 @@ html {
     color: #231815;
   }
 
-  .search {
+  .nav-buttons span {
     display: none;
   }
   
-  .search-active {
+  .nav-search::before {
     content: url('./resources/images/search-active.png');
   }
 
@@ -169,78 +480,27 @@ html {
     width: 200px;
   }
 
-  
-
-  /* .search-cards {
-    width: 1600px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 40px;
-  }
-  
-  .card img {
-    max-width: 100%;
-  }
-  
-  .card {
-    display: flex;
-    flex-flow: column;
-    justify-content: space-between;
-  } */
-}
-
-@media only screen and (max-width: 768px) {
-  body {
-    width: 768px;
-  }
-  
-  .nav-info,
-  .nav a {
-    display: none;
-  }
-
-  .nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    height: 60px;
-  }
-
-  .nav-logo {
-    margin-left: 44px;
-    width: 141.32px;
-  }
-
   main {
-    width: 680px;
-    margin: 30px auto;
-    display: flex;
-    flex-flow: column;
-    gap: 40px;
+    position: absolute;
+    top: 120px;
+    padding: 60px 120px;
+    left: 60px;
   }
 
   h2 {
-    font: 400 32px/44.8px Korataki;
+    font: 400 40px/56px Korataki;
     text-align: left;
-    position: relative;
-    width: 680px;
-  }
-
-  .menu-button {
-    display: inline-block;
-    margin-right: 44px;
-    height: 25px;
-    background: transparent;
-    border: none;
-    cursor: pointer;
+    width: 592px;
   }
 
   .search-cards {
-    width: 680px;
+    width: 1240px;
+    height: 1062px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(287px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+
   }
 
   .card {
@@ -285,9 +545,285 @@ html {
 
   .footer {
     background: #231815;
-    color: #fff;
+    color: #F5F5F5;
+    font-family: 'Lato', sans-serif;
+    width: 1600px;
+    height: 320px;
+    position: absolute;
+    top: 1404px;
+  }
+  
+  .footer-container {
+    position: relative;
+  }
+  
+  .footer-logo {
+    position: absolute;
+    top: 64px;
+    left: 180px;
+    width: 217px;
+  }
+  
+  .footer-adress,
+  .footer-contacts,
+  .footer-services,
+  .footer-policy {
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+  }
+
+  .footer-adress {
+    width: 245px;
+    position: absolute;
+    top: 60px;
+    left: 573px;
+  }
+
+  .footer-contacts {
+    width: 246px;
+    position: absolute;
+    top: 160px;
+    left: 572px;
+  }
+
+  .footer-services .footer-title {
+    width: 140px;
+    position: absolute;
+    top: 60px;
+    left: 900px;
+  }
+
+  .footer-policy {
+    width: 242px;
+    position: absolute;
+    top: 62px;
+    left: 1176.98px;
+  }
+
+  .footer-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 214.76px;
+    height: 31px;
+    position: absolute;
+    top: 198px;
+    left: 1205px;
+  }
+
+  .footer-privacy {
+    width: 322px;
+    position: absolute;
+    top: 176px;
+    left: 180px;
+  }
+
+  .footer-text-container {
+    display: flex;
+    flex-flow: column;
+    gap: 25px;
+  }
+
+  .footer-title {
+    font: 700 18px/18px Lato;
+    text-align: left;
+  }
+  
+  .footer-text {
+    font: 400 16px/24px Lato;
+    text-align: left;
+  }
+  
+  .footer-link {
+    color: #F5F5F5;
+    text-decoration: none;
+    font: 400 16px/24px Lato;
+    text-align: left;
+  }
+
+  .footer-text-container .footer-text,
+  .footer-text-container span {
+    color: #F5F5F5;
+    text-decoration: none;
+    font: 400 16px/16px Lato;
+    text-align: left;
+  }
+  
+  .footer-list-services {
+    position: absolute;
+    top: 98px;
+    left: 900px;
+    list-style: none;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    height: 160px;
+    gap: 20px;
+  }
+
+  .footer-list-services .footer-link {
+    font: 400 16px/16px Lato;
+    text-align: left;
+    color: #F5F5F5;
+  }
+  
+  .footer-list li {
+    margin-bottom: 5px;
+  }
+
+  .footer-list-policy {
+    display: flex;
+    flex-flow: column;
+    align-items: end;
+    gap: 20px;
+  }
+
+  .footer-list-policy .footer-link {
+    font: 400 16px/22.4px Lato;
+    text-align: left;
+    color: #808080;
+  }
+  
+  .footer-payment {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-payment:nth-child(1) {
+    width: 46px;
+  }
+  
+  .footer-payment:nth-child(2) {
+    width: 45px;
+  }
+  
+  .footer-payment:nth-child(3) {
+    width: 48.33px;
+  }
+  
+  .payment-icon {
+    max-width: 100%;
+  }
+
+  .footer-privacy p,
+  .footer-privacy .footer-link {
+    font: 400 16px/20.8px Roboto;
+    text-align: left;
+    text-decoration: underline solid;
+    color: #808080;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    width: 768px;
+  }
+  
+  .nav-info,
+  .nav a,
+  .nav-links {
+    display: none;
+  }
+
+  .nav {
+    position: static;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+  }
+
+  .nav-logo {
+    margin-left: 44px;
+    width: 141.32px;
+    position: static;
+  }
+
+  main {
+    position: static;
+    width: 680px;
+    margin: 30px auto;
+    display: flex;
+    flex-flow: column;
+    gap: 40px;
+    padding: 0;
+  }
+
+  h2 {
+    font: 400 32px/44.8px Korataki;
+    text-align: left;
+    position: relative;
+    width: 680px;
+  }
+
+  .menu-button {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: 44px;
+    padding: 0;
+    height: 25px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .search-cards {
+    width: 680px;
+    height: 2410px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 40px;
+    margin: 0;
+  }
+
+  .card {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+  }
+
+  .card p {
+    margin-top: 10px;
+    font: 700 18px/25.2px Lato;
+    text-align: left;
+  }
+
+  .price {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+  }
+
+  .price span {
+    font: 700 22px/30.8px Lato;
+    text-align: left;
+  }
+  
+  .price-red {
+    font: 700 22px/30.8px Lato;
+    text-align: left;
+    color: #E45302;
+  }
+
+  .price-discount {
+    font: 700 22px/30.8px Lato;
+    text-align: left;
+    text-decoration: line-through;
+    color: #808080;
+  }
+
+  .card img {
+    max-width: 100%;
+  }
+
+  .footer {
+    position: static;
+    background: #231815;
+    color: #F5F5F5;
     font-family: 'Lato', sans-serif;
     height: 521px;
+    width: 768px;
   }
   
   .footer-container {
@@ -327,6 +863,7 @@ html {
 
   .footer-services {
     width: 140px;
+    height: 238px;
     gap: 20px;
     position: absolute;
     top: 130px;
@@ -376,7 +913,7 @@ html {
   }
   
   .footer-link {
-    color: #fff;
+    color: #F5F5F5;
     text-decoration: none;
     font: 400 16px/24px Lato;
     text-align: left;
@@ -384,17 +921,23 @@ html {
 
   .footer-text-container .footer-text,
   .footer-text-container span {
-    color: #fff;
+    color: #F5F5F5;
     text-decoration: none;
     font: 400 16px/16px Lato;
     text-align: left;
   }
   
   .footer-list-services {
+    position: static;
     list-style: none;
     display: flex;
     flex-flow: column;
+    height: 200px;
     gap: 20px;
+  }
+
+  .footer-services .footer-title {
+    position: static;
   }
   
   .footer-list li {
@@ -404,6 +947,7 @@ html {
   .footer-list-policy {
     display: flex;
     flex-flow: column;
+    align-items: start;
     gap: 20px;
   }
 
@@ -467,7 +1011,7 @@ html {
 
   main {
     width: 320px;
-    margin: 30px auto;
+    margin: 10px auto;
     display: flex;
     flex-flow: column;
     gap: 30px;
@@ -476,11 +1020,14 @@ html {
   h2 {
     font: 400 24px/33.6px Korataki;
     text-align: left;
+    width: 229px;
   }
 
   .menu-button {
     display: inline-block;
+    margin-left: auto;
     margin-right: 35px;
+    padding: 0;
     height: 25px;
     background: transparent;
     border: none;
@@ -489,9 +1036,12 @@ html {
 
   .search-cards {
     width: 320px;
+    height: 1370px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(155px, 1fr));
-    gap: 10px;
+    grid-auto-rows: 320px;
+    gap: 20px 10px;
+    margin-top: 0;
   }
 
   .card {
@@ -536,8 +1086,8 @@ html {
   .footer {
     height: 867px;
     background: #231815;
-    color: #fff;
-    padding: 40px 20px;
+    color: #F5F5F5;
+    padding-top: 40px;
     font-family: 'Lato', sans-serif;
   }
   
@@ -618,7 +1168,7 @@ html {
   }
   
   .footer-link {
-    color: #fff;
+    color: #F5F5F5;
     text-decoration: none;
     font: 400 16px/24px Lato;
     text-align: left;
@@ -626,7 +1176,7 @@ html {
 
   .footer-text-container .footer-text,
   .footer-text-container span {
-    color: #fff;
+    color: #F5F5F5;
     text-decoration: none;
     font: 400 16px/16px Lato;
     text-align: left;
