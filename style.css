@@ -569,15 +569,6 @@ html {
     left: 180px;
     width: 217px;
   }
-  
-  .footer-adress,
-  .footer-contacts,
-  .footer-services,
-  .footer-policy {
-    display: flex;
-    flex-flow: column;
-    gap: 10px;
-  }
 
   .footer-adress {
     width: 245px;
@@ -644,14 +635,6 @@ html {
     color: #F5F5F5;
     text-decoration: none;
     font: 400 16px/24px Lato;
-    text-align: left;
-  }
-
-  .footer-text-container .footer-text,
-  .footer-text-container span {
-    color: #F5F5F5;
-    text-decoration: none;
-    font: 400 16px/16px Lato;
     text-align: left;
   }
   
@@ -851,15 +834,6 @@ html {
     left: 44px;
     width: 180px;
   }
-  
-  .footer-adress,
-  .footer-contacts,
-  .footer-services,
-  .footer-policy {
-    display: flex;
-    flex-flow: column;
-    gap: 10px;
-  }
 
   .footer-adress {
     position: absolute;
@@ -930,14 +904,6 @@ html {
     color: #F5F5F5;
     text-decoration: none;
     font: 400 16px/24px Lato;
-    text-align: left;
-  }
-
-  .footer-text-container .footer-text,
-  .footer-text-container span {
-    color: #F5F5F5;
-    text-decoration: none;
-    font: 400 16px/16px Lato;
     text-align: left;
   }
   
@@ -1130,15 +1096,6 @@ html {
     width: 180px;
     position: static;
   }
-  
-  .footer-adress,
-  .footer-contacts,
-  .footer-services,
-  .footer-policy {
-    display: flex;
-    flex-flow: column;
-    gap: 10px;
-  }
 
   .footer-adress {
     width: 245px;
@@ -1198,14 +1155,6 @@ html {
     color: #F5F5F5;
     text-decoration: none;
     font: 400 16px/24px Lato;
-    text-align: left;
-  }
-
-  .footer-text-container .footer-text,
-  .footer-text-container span {
-    color: #F5F5F5;
-    text-decoration: none;
-    font: 400 16px/16px Lato;
     text-align: left;
   }
   
