@@ -79,21 +79,18 @@ html {
   }
 
   .nav-info a:nth-child(1) {
-    width: 138px;
     position: absolute;
     top: 12px;
     left: 1220px;
   }
 
   .nav-info a:nth-child(2) {
-    width: 140px;
     position: absolute;
     top: 12px;
     left: 1428px;
   }
 
   .nav-info a:nth-child(3) {
-    width: 22px;
     position: absolute;
     top: 10px;
     left: 1639px;
@@ -278,7 +275,7 @@ html {
   }
 
   .footer-policy {
-    width: 242px;
+    width: 244px;
     position: absolute;
     top: 62px;
     left: 1418px;
@@ -417,21 +414,18 @@ html {
   }
 
   .nav-info a:nth-child(1) {
-    width: 138px;
     position: absolute;
     top: 12px;
     left: 980px;
   }
 
   .nav-info a:nth-child(2) {
-    width: 140px;
     position: absolute;
     top: 12px;
     left: 1188px;
   }
 
   .nav-info a:nth-child(3) {
-    width: 22px;
     position: absolute;
     top: 10px;
     left: 1398px;
@@ -607,7 +601,7 @@ html {
   }
 
   .footer-policy {
-    width: 242px;
+    width: 244px;
     position: absolute;
     top: 62px;
     left: 1176.98px;
